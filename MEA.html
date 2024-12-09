@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mechanical Engineering Association - Kumaraguru College of Technology</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* Menu toggle styles */
+    .menu-toggle {
+      display: none; /* Hidden by default */
+      cursor: pointer;
+    }
+
+    .menu-toggle .icon {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0;
+      transition: all 0.3s ease;
+    }
+
+    .menu-toggle.open .icon:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-toggle.open .icon:nth-child(2) {
+      opacity: 0;
+    }
+
+    .menu-toggle.open .icon:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    /* Container styles */
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    /* Home section styles */
+    #home {
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 50px 0;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div class="icon"></div>
+      <div class="icon"></div>
+      <div class="icon"></div>
+    </div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#join">Join Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <!-- Additional menu items -->
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to the Mechanical Engineering Association</h1>
+      <p>Discover the world of mechanical engineering excellence.</p>
+      <a href="#about" class="cta-button">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Welcome to the Mechanical Engineering Association at Kumaraguru College of Technology (KCT). Our association serves as a platform for students interested in exploring the diverse field of mechanical engineering.</p>
+      <p>At KCT, our mission is to foster a vibrant community of aspiring engineers who are passionate about innovation, problem-solving, and collaboration. Through a variety of events, workshops, and projects, we aim to enrich the academic experience of our members and prepare them for successful careers in the field of mechanical engineering.</p>
+      <p>Our association is led by a dedicated team of students who are committed to organizing engaging activities and providing valuable resources for our members. Whether you're a freshman eager to learn about the latest advancements in the industry or a senior looking to network with professionals, there's something for everyone at the Mechanical Engineering Association.</p>
+      <p>Come join us and be a part of our journey to excellence in mechanical engineering!</p>
+    </div>
+  </section>
+
+<!--<section id="events">
+  <div class="container">
+    <h2>Events</h2>
+    <div class="event">
+      </div>
+    <div class="event">
+       </div>
+  </div>
+</section>-->
+
+
+  <!-- Your other sections (gallery, events, join us, contact us) go here -->
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Mechanical Engineering Association, Kumaraguru College of Technology. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript to toggle menu -->
+  <script>
+    function toggleMenu() {
+      var menuToggle = document.querySelector('.menu-toggle');
+      var menu = document.querySelector('.menu');
+      menu.classList.toggle('open');
+      menuToggle.classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

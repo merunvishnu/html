@@ -1,0 +1,20 @@
+<html>
+<section>
+<h3>Member at STUDIOKCT</h3>
+<p>Studio KCT is a thriving photography club nestled within the vibrant campus of our college. As a beloved member of this esteemed organization, I have found a passion for both event management and the art of capturing moments through the lens. Within Studio KCT, we foster a community of creativity, collaboration, and skill development, where every member contributes to our collective journey of visual storytelling.
+
+At the heart of Studio KCT lies a dedication to organizing and executing memorable events that celebrate the art of photography. With event management as one of my best skills, I take pride in orchestrating seamless experiences that leave a lasting impact on our members and audience alike. Whether it's curating themed photo exhibitions, hosting interactive workshops, or coordinating outdoor photo shoots, I thrive on the challenge of bringing our collective vision to life.
+
+Moreover, my photography skills complement my role within Studio KCT. Through my lens, I capture the essence of moments, transforming ordinary scenes into extraordinary narratives. With a keen eye for composition, lighting, and emotion, my photos not only showcase technical proficiency but also evoke a sense of connection and storytelling that resonates with our audience.
+
+In Studio KCT, we believe in continuous learning and growth. Through workshops, critique sessions, and mentorship programs, we empower each member to hone their craft and unlock their full potential as photographers and event managers. Together, we push boundaries, challenge conventions, and inspire one another to reach new heights in our artistic pursuits.
+
+As a beloved member of Studio KCT, I am deeply committed to upholding our values of creativity, collaboration, and excellence. Through my passion for event management and photography, I contribute to the vibrant tapestry of experiences that define our club. Together, we capture moments, create memories, and inspire others to see the world through a different lens.
+
+</p>
+<img src="C:\Users\merun\Downloads\fortfolio\stuio -portfolio\studio -group.jpg">
+</section>
+<footer>
+<a href="https://www.instagram.com/studiokct/?hl=en"><img src="C:\Users\merun\Downloads\fortfolio\stuio -portfolio\studio logo.jpg"></a>
+</footer>
+</html>
