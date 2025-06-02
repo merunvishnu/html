@@ -2,58 +2,66 @@
 <html lang="en">
 <head>
     <style>
-.container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    .certificate {
-      margin-bottom: 20px;
-    }
-
-    .certificate-upload {
-      margin-top: 10px;
-    }
-        body {
-            font-family: Arial, Montessori;
-            margin:10;
-            background-color: White;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
+
+        .certificate {
+            margin-bottom: 20px;
+        }
+
+        .certificate-upload {
+            margin-top: 10px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            background-color: white;
+        }
+
         nav {
             background-color: black;
             padding: 10px;
             text-align: center;
         }
+
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
         }
+
         nav li {
             display: inline;
             margin-right: 20px;
         }
+
         nav a {
             color: white;
             text-decoration: none;
             font-size: 18px;
             transition: color 0.3s;
         }
+
         nav a:hover {
             color: cyan;
         }
+
         nav a.active {
             font-weight: bold;
         }
+
         header {
-            background-color:white;
-            color:blue ;
+            background-color: white;
+            color: blue;
             padding: 0px;
             text-align: center;
-           animation: fadeInDown 1s ease-out;
+            animation: fadeInDown 1s ease-out;
         }
-        .section a{
+
         @keyframes fadeInDown {
             from {
                 opacity: 0;
@@ -64,65 +72,59 @@
                 transform: translateY(0);
             }
         }
-}
 
         .sr {
             visibility: hidden;
             opacity: 0;
             transition: opacity 0.5s ease;
         }
+
         .sr.reveal {
             visibility: visible;
             opacity: 1;
         }
-        }
+
         h1 {
             font-size: 35px;
         }
+
         #projects li:hover {
-        transform: scale(1.05); 
-         }
-        nav {
-            background-color:Black;
-            padding: 0px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin:10px;
-            font-size: 20px;
-        }
-        nav a:hover {
-               color: Lightgreen;
+            transform: scale(1.05);
         }
 
         section {
             padding: 10px;
         }
+
         footer {
-            background-color:black;
+            background-color: black;
             color: white;
-            padding: 0px;
-            bottom:0px;
+            padding: 10px;
             text-align: left;
-            position: movable;
+            position: fixed;
+            bottom: 0;
             width: 100%;
         }
-footer p {
+
+        footer p {
             margin: 0;
         }
+
         footer a {
             color: white;
             text-decoration: none;
             margin: 0 10px;
             transition: color 0.3s;
         }
+
         footer a:hover {
             color: cyan;
         }
+
         footer .contact-icons {
             margin-top: 10px;
         }
+
         footer .contact-icons img {
             margin-right: 10px;
             vertical-align: middle;
@@ -131,10 +133,11 @@ footer p {
 </head>
 <body>
 
-    <header class>
+    <header>
         <h1>My Portfolio</h1>
     </header>
-      <nav>
+
+    <nav>
         <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -142,36 +145,97 @@ footer p {
             <li><a href="#skills">Skills</a></li>
         </ul>
     </nav>
-    
+
     <section>
-         <p> Name: Merunkumar</p>
-         <p> Education: Bachelor's in Mechanical Engineering(currently 2nd year)</p>
-         <p> Place:Coimbatore</p>
+        <p>Name: Merunkumar</p>
+        <p>Education: Bachelor's in Mechanical Engineering (currently 2nd year)</p>
+        <p>Place: Coimbatore</p>
     </section>
 
-<section>
-      <h2> Education</h2>
+    <section>
+        <h2>Education</h2>
         <ul>
-          <h3>Primary</h3>
-              <li>Wisdom Hr.Sec.School</li>
-           <h3>Secondary</h3>
-              <li><a href="http://sreesaravanaschool.in/about/">SSNMS</a></li>
-           <h3>Higher</h3>
-              <li><a href="https://www.kct.ac.in/">Kumaraguru college of technology</a></li>
-           </ul>
-</section>
+            <h3>Primary</h3>
+            <li>Wisdom Hr.Sec.School</li>
+            <h3>Secondary</h3>
+            <li><a href="http://sreesaravanaschool.in/about/">SSNMS</a></li>
+            <h3>Higher</h3>
+            <li><a href="https://www.kct.ac.in/">Kumaraguru College of Technology</a></li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Merunkumar, a passionate learner and aspiring Mechanical Engineer currently studying at Kumaraguru College of Technology, Coimbatore. I hail from the vibrant city of Salem in Tamil Nadu.</p>
+        <p>Having achieved an outstanding 98.7% in my 10th standard and a commendable 92.8% in my 12th standard from SNMS School, academics have always been my forte.</p>
+        <p>Music is my sanctuary, and you'll often find me immersing myself in melodies during my leisure time.</p>
+        <p>I'm known for my discipline, punctuality, and fitness-oriented lifestyle. I also consider myself cheerful and curious.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/merunkumara/python/blob/main/Treasure_hunt.py">Treasure Hunt (Python)</a></li>
+            <p>Treasure Hunt is a text-based Python game where the player navigates through a grid to find a hidden treasure.</p>
+            <li><a href="https://github.com/merunkumara/html/blob/main/portfolio.html">Portfolio using HTML</a></li>
+            <p>A web portfolio showcasing my skills, projects, and experience.</p>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Cricket</li>
+            <li>Volleyball</li>
+            <li>Football</li>
+            <li>Surfing the Web</li>
+            <li>Calisthenics</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Python</li>
+            <li>SolidWorks</li>
+            <li>Adobe Lightroom</li>
+            <li>HTML</li>
+            <li>Team Building</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Courses and Certifications</h2>
+        <div class="certificate">
+            <p>Certificate from SoloLearn</p>
+            <ul>
+                <li><a href="#" target="_blank">Codechef Python for Problem Solving</a></li>
+                <li><a href="#" target="_blank">Learn HTML & CSS</a></li>
+                <li><a href="#" target="_blank">Digital Unlocked</a></li>
+                <li><a href="#" target="_blank">Google's Digital Marketing</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Merunkumar | Portfolio</p>
+        <div class="contact-icons">
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
             });
         });
 
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             var sections = document.querySelectorAll('section');
             var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
@@ -183,141 +247,15 @@ footer p {
                     document.querySelectorAll('nav a').forEach(link => {
                         link.classList.remove('active');
                     });
-                    document.querySelector('a[href="#' + section.id + '"]').classList.add('active');
+
+                    const currentLink = document.querySelector('nav a[href="#' + section.id + '"]');
+                    if (currentLink) {
+                        currentLink.classList.add('active');
+                    }
                 }
             });
         });
     </script>
-
-    
-      
-    <section id="about">
-        <h2>About Me</h2>
-            <p>Hello! I'm Merunkumar, a passionate learner and aspiring Mechanical Engineer currently studying at Kumaraguru College of Technology, Coimbatore. I hail from the vibrant city of Salem in Tamil Nadu.</p>
-    
-            <p>Having achieved an outstanding 98.7% in my 10th standard and a commendable 92.8% in my 12th standard from SNMS School, academics have always been my forte. However, beyond the realm of academics, I find joy in exploring new horizons and embracing diverse experiences.</p>
-    
-            <p>Music is my sanctuary, and you'll often find me immersing myself in melodies during my leisure time. I'm also an ardent advocate for an active lifestyle, relishing outdoor activities that keep me physically and mentally invigorated.As a fitness enthusiast, I prioritize my health and well-being, engaging in daily workouts in the morning. Punctuality is a virtue I uphold dearly, and I take pride in being a disciplined timekeeper.</p>
-             <p>With a light brown skin tone that I think adds to my charm, I often jest that I'm the cutest! I'm also known for my ability to fall asleep swiftly and wake up energetically, ready to conquer the day.</p>
-             <p>Driven by a fervent curiosity, I constantly seek to acquire new skills and broaden my knowledge. Whether it's delving into the intricacies of mechanical engineering or mastering a new musical instrument, I thrive on the exhilarating journey of self-improvement.</p>
-</section>
-       
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of the projects I've worked on:</p>
-        <ul>
-            <li><a href="https://github.com/merunkumara/python/blob/main/Treasure_hunt.py">Project 1:"Treasure hunt" using Python</a></li>
-                <p>Treasure Hunt is a text-based Python game where the player navigates through a grid to find a hidden treasure. </p> 
-            <li><a href= "https://github.com/merunkumara/html/blob/main/portfolio.html">Project 2: Portfolio usinf HTML</a></li>
-                <p>My HTML portfolio is a personalized web space where I showcase my skills, projects, and professional journey. It serves as a digital resume, providing visitors with insight into my background, education, and experiences.</p>
-        </ul>
-    </section> 
-    <section id="hobbies">
-    <h2>Hobbies</h2>
-    <ul>
-      <li>Cricket</li>
-      <li>Volleyball</li>
-      <li>Football</li>
-      <li>Surfing the Web</li>
-      <li> Calisthenics</li>
-    </ul>
-  </section>
- 
-  <section id = "skills">
-         <h2>Skills</h2>
-         <p> Here are some of my skills listed below!..</p>
-       <ul>
-           <li>Web Development</li>
-              <p>Web development involves creating and maintaining websites and web applications using programming languages like HTML, CSS, JavaScript, and various frameworks and libraries. It encompasses both front-end development, focusing on user interface and experience, and back-end development, managing server-side logic and databases. </p>
-           <li>Python</li>
-              <p>Python is a versatile and high-level programming language known for its simplicity and readability. It offers a wide range of applications, including web development, data analysis, artificial intelligence, automation, and more.</p>
-           <li>Solidworks</li>
-              <p>SolidWorks is a powerful computer-aided design (CAD) software used for creating 3D models, simulations, and engineering drawings. It offers an intuitive interface and a comprehensive set of tools for designing mechanical, electrical, and architectural components.</p>
-           <li>Adobe Lightroom</li>
-              <p>Adobe Lightroom is a professional photo editing software designed for photographers and digital image enthusiasts. It offers a wide range of tools and features for organizing, editing, and enhancing photos with ease. Lightroom allows users to adjust various aspects of their images, including exposure, color, contrast, and sharpness, using non-destructive editing techniques.</p>
-           <li>HTML</li>
-              <p>HTML (Hypertext Markup Language) is the standard markup language used to create and structure web pages and web applications. It provides a set of elements or tags that define the structure and content of a webpage, such as headings, paragraphs, lists, links, images, forms, and more.</p> 
-           <li>Team Building</li>
-               <p>Team building refers to activities and processes designed to enhance collaboration, communication, and camaraderie among members of a group or team. These activities can include team-building exercises, workshops, retreats, and games aimed at fostering trust, improving morale, and increasing productivity within the team. </p>
-          </ul> 
-</section>
-
-<section>
-    <h2>Courses and Certifications</h2>
-    <div class="certificate">
-      <p>Certificate from SoloLearn</p>
-     <ul>   
-      <li><a href="D:\Certificates\certificate factory\merunkumar-Python for problem solving - 1.pdf" target="_blank">Codechef'1</a></li>
-      <li><a href ="D:\Certificates\certificate factory\merunkumar-Learn HTML _ CSS.pdf" target="blank">Codechef'2</a></li>
-      <li><a href ="D:\Certificates\certificate factory\digitalunlocked_certificate.pdf" target="blank">Codechef'3</a></li>
-      <li><a href ="D:\Certificates\certificate factory\digitalunlocked_certificate.pdf" target="blank">Google's Digital marketing</a></li>
-<li><a href= "D:\Certificates\certificate factory\0f7941c5-a186-4f12-8d45-c4c4db5f4e84.pdf" target= "blank">Introduction to python</a> </li>
-<li><a href ="D:\Certificates\certificate factory\a36f05c7-80ce-4a2a-b655-0a6801f5c32f.pdf" target="blank">python intermediate</a></li>
-      <li><a href ="D:\Certificates\certificate factory\c9d6dbf9-9d93-48f3-9fb1-43fe117ace1f.pdf" target="blank">python developer</a></li>
-      
-      
-    </div>
-    <!-- Repeat the certificate structure for other courses -->
-  </div>
-</section>
-
-<section id = "Experience">
-<h2>Experience</h2>
-<h4>Volunteer</h4>
-<p>ATBC Conference Management Team (Event Coordinator)
-Led planning and execution of inaugural ATBC conference at college.making the visitors comfortable at their place</p> 
-<h4>Key Responsibilities:</h4>
-Organized venue, schedule, and accomadation team.
-Managed team of volunteers and liaised with stakeholders.
-<h4>Skills Developed:</h4>
-Leadership, communication, organization, problem-solving.
-Event planning and management.
-
-
-
-<section>
-      <h2>Languages Known</h2>
-           <li>JAPANESE(Medium proficiency)</li>
-           <li>ENGLISH</li>
-           <li>HINDI(Low proficiency)</li>
-           <li>TAMIL</li>
-           <li>MALAYALAM(Low proficiency)</li>           
-</section>
-<section id="projects">
-         <h2>Scholarships Award</h2>
-         <p>Awarded an scholarships from <a href="C:\Users\merun\Downloads\fortfolio\bluestar.html">Bluestar limited</a></p>
-     
-</section>
-<section>
-       <h2>Position</h2>
-       <li> Member at Institution of Engineers</a></li>
-       <li><a href="fortfolio-studiokct.html">Member at STUDIOKCT</li>
-       <li><a href="https://github.com/merunvishnu/html/blob/main/MEA.html">Executive Member at Department Association</a></li>
-</section>
-<section id="resume">
-    <h2>Resume</h2>
-    <p>You can download my resume <a href="C:\Users\merun\Downloads\fortfolio\Profile (2).pdf" download>here</a>.</p>
-  </section>
-    
-
-    <footer>
-       <p>&copy; 2024 My Portfolio</p>
-         <section id="contact">
-           <h2>Contact</h2>
-           <p>If you'd like to get in touch with me, feel free to reach out:</p>
-       
-        <div class="contact-icons">
-            <a href="tel:8056339881"><img src="C:\Users\merun\Downloads\fortfolio\phone.png" alt="Phone" width="20" height="20"></a>
-            <a href="mailto:your.email@example.com"><img src="C:\Users\merun\Downloads\fortfolio\email.png" alt="Email" width="20" height="20"></a>
-            <a href="https://github.com/merunkumara"><img src="github.png" alt="GitHub" width="20" height="20"></a>
-            <a href="https://www.linkedin.com/in/merun-kumar-a46801265/"><img src="C:\Users\merun\Downloads\fortfolio\linkedin.png" alt="LinkedIn" width="20" height="20"></a>
-            <a href="https://www.instagram.com/mk_merun/"><img src="C:\Users\merun\Downloads\fortfolio\insta.png" alt="Instagram" width="20" height="20"></a>
-            <a href="https://linktr.ee/admin"><img src="C:\Users\merun\Downloads\fortfolio\linktree.png" alt="Linktree" width="20" height="20"></a>
-        </div>
-    </footer>
-         
 
 </body>
 </html>
